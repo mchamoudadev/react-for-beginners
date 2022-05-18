@@ -22,6 +22,20 @@ const products = [
 			"https://images.pexels.com/photos/4792731/pexels-photo-4792731.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
 		price: 99,
 	},
+	{
+		id: 4,
+		name: "Logitech Keyboard",
+		urlImage:
+			"https://images.pexels.com/photos/5738087/pexels-photo-5738087.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+		price: 99,
+	},
+	{
+		id: 5,
+		name: "Logitech Keyboard",
+		urlImage:
+			"https://images.pexels.com/photos/11290876/pexels-photo-11290876.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+		price: 99,
+	},
 ];
 
 export const Products = () => {

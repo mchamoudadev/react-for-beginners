@@ -30,6 +30,9 @@ function App() {
                 <Route path="/cart" element={<Cart />}>
                     Cart
                 </Route>
+                <Route path=":productId" element={<Cart />}>
+                    Cart
+                </Route>
                 <Route path="/*" element={<NotFound />}>
                     Not Found
                 </Route>
