@@ -1,6 +1,71 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
 .something {
 	background-color: green;
 	padding: 10px;
 	border-radius: 15px;
 	color: white;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links a {
+	text-decoration: none;
+	margin: 10px;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.card {
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+}
+
+.card img {
+	width: 100%;
+}
+.card .info {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card span {
+	font-size: 1.75rem;
+}
+.price {
+	font-size: 18px;
+	font-style: italic;
+}
+.btn {
+	width: 100%;
+	padding: 10px 15px;
+	background-color: rgb(24, 119, 201);
+	color: #fff;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 22px;
+	cursor: pointer;
 }
