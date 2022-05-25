@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import useShop from "../ShopContext";
 
 const Header = () => {
+	const { products } = useShop();
 	return (
 		<div className="menu">
 			<h1>Reactify</h1>
@@ -10,6 +12,9 @@ const Header = () => {
 				<Link to="/contact">Contact</Link>
 				<Link to="/cart">Cart</Link>
 			</div>
+			<Link to="/cart">
+				<span className="cart">{products.length}</span>
+			</Link>
 		</div>
 	);
 };

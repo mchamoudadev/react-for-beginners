@@ -42,7 +42,7 @@ export const Products = () => {
 	return (
 		<div className="grid">
 			{products.map((product) => (
-				<Product product={product} />
+				<Product product={product} cart={false} />
 			))}
 		</div>
 	);
